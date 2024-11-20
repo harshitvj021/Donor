@@ -10,43 +10,7 @@ BloodLife offers the following key features:
 
 - Reports and Analytics: Generate reports and analytics related to blood donations, inventory, and other relevant records.
 
-## Installation
 
-To set up BloodLife locally, follow these steps:
-
-- Clone the repository:
-
-      git clone https://github.com/OviSarkar62/BloodLife.git
-
-- Install the required dependencies for backend:
-
-      npm i express dotenv colors bcryptjs jsonwebtoken mongoose nodemon zxcvbn
-     
-- Navigate to the client directory: 
-
-       cd client
-    
-- Install the dependencies for the client: 
-
-       npm i react-router-dom redux react-redux axios antd @reduxjs/toolkit react-bootstrap moment
-    
-- Create a .env file in the root directory with the following environment variables:
-
-       DB_URL = mongodb+srv://<user>:<pass>@cluster0.l17quyr.mongodb.net/database
-
-       JWT_SECRET = A_Secret_Value
-
-- Start the server: 
-
-       npm start
-    
-- In a new terminal window, navigate to the client directory:
-
-       cd client
-    
-- Start the client: 
-
-       npm start
     
 - Access the application. Open your web browser and visit http://localhost:3000 to access the BloodLife application.
 
@@ -73,6 +37,4 @@ For detailed usage instructions and a comprehensive guide, refer to the user doc
 - JWT - JSON Web Token for user authentication and authorization
 - Bcrypt - Password hashing library for secure password storage
 
-## Live Link
 
-The live project: [BloodLife](https://blood-life-jns26xt5g-ovisarkar62.vercel.app/login)
